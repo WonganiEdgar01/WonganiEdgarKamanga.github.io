@@ -34,13 +34,12 @@ ul
   background: var(--bg-black-900);
   min-height: 100vh;
   display: block;
-  position: fixed;
-  left: 270px;
   padding: 0 36px;
-  top: 0;
-  right: 0;
-  z-index: 0;
   opacity: 1;
+}
+.main-content
+{
+  padding-left: 270px;
 }
 .padd-15
 {
@@ -70,16 +69,17 @@ ul
   border-radius: 40px;
   display: inline-block;
   white-space: nowrap;
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--skin-color);
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  border: none;
+  /* border-color: var(--skin-color); */
   background: var(--skin-color);
   transition: all 0.3s ease;
 }
 .btn:hover
 {
-  background: var(--bg-black-900);
-  color: var(--skin-color);
+  /* background: var(--bg-black-900);
+  color: var(--skin-color); */
   transform: scale(1.05);
 }
 /* aside */
@@ -117,7 +117,7 @@ ul
 .aside .logo a span
 {
   font-family: 'Clicker Script', cursive;
-  font-family: 40px;
+  font-size: 40px;
 }
 .aside .logo a::before
 {
@@ -254,8 +254,36 @@ h3.my-profession
   max-width: 40%;
   text-align: center;
   position: relative;
+  display: flex;
+}
+.home-img::after
+{
+  display: flex;
+  content: '';
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  bottom: -40px;
+  width: 80px;
+  border-bottom: 10px solid var(--skin-color);
+  border-right: 10px solid var(--skin-color);
+}
+.home-img::before
+{
+  display: flex;
+  content: '';
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: -40px;
+  width: 80px;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
 }
 .home .home-img img
 {
+  margin: auto;
+  border-radius: 10px;
   height: 400px;
+  display: flex;
 }
