@@ -863,20 +863,6 @@ portfolio .container
   line-height: 24px;
   font-weight: 400;
 }
-@media (max-width: 992px) 
-{
-  .contact .contact-info-item{
-    flex: 0 0 50%;  
-    max-width: 50%;  
-  }
-}
-@media (max-width: 576px) 
-{
-  .contact .contact-info-item {
-    flex: 0 0 100%;  
-    max-width: 100%;
-  }
-}
 .contact .contact-form
 {
   flex: 0 0 100%;
@@ -896,7 +882,7 @@ portfolio .container
 }
 .contact .contact-form .form-item
 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .contact .contact-form .form-item .form-control
 {
@@ -929,4 +915,45 @@ portfolio .container
   align-items: center;
   display: block;  
   margin: 0 auto; 
+}
+@media (max-width: 992px) 
+{
+  .contact .contact-info-item{
+    flex: 0 0 100%;  
+    max-width: 100%;  
+  }
+}
+@media (max-width: 786px) 
+{
+  .contact .contact-info-item{
+    flex: 0 0 100%;  
+    max-width: 100%;  
+  }
+  .contact .contact-form .col-6
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .contact .contact-form .form-item
+{
+  margin-bottom: 10px;
+}
+}
+@media (max-width: 576px) 
+{
+  .contact .contact-info-item {
+    flex: 0 0 100%;  
+    max-width: 100%;
+  }
+  .contact .contact-form .col-6
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .contact .contact-form .form-item
+{
+  margin-bottom: 10px;
+}
 }
