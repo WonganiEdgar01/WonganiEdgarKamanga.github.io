@@ -931,9 +931,6 @@ portfolio .container
 }
 .contact .contact-form .form-item .btn
 {
-  border-radius: 40px;
-  padding: 12px 40px;
-  font-size: 18px;
   align-items: center;
   display: block;  
   margin: 0 auto; 
@@ -988,11 +985,6 @@ portfolio .container
     max-width: 100%;
     padding: 0 15px;
   }
-  .contact .contact-form .form-item .btn
-{
-  border-radius: 40px;
-  padding: 10px 30px;
-}
 .contact .contact-info-item .icon .fa
 {
   font-size: 16px;
