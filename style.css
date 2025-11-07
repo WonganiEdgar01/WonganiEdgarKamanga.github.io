@@ -108,8 +108,8 @@ ul
 {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15px;   /* <-- change to negative */
-  margin-right: 15px;  /* <-- change to negative */
+  margin-left: -15px;   /* <-- change to negative */
+  margin-right: -15px;  /* <-- change to negative */
   position: relative;
 }
 .btn
@@ -612,7 +612,10 @@ h3.my-profession
     top: -30px;
     font-size: 13px;
   }
-
+  .about .about-content .row
+  {
+    max-width: 100%;
+  }
   /* make images scale */
   .home .home-img img {
     max-width: 100%;
