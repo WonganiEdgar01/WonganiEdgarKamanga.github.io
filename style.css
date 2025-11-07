@@ -996,8 +996,12 @@ portfolio .container
 @media (max-width: 786px) 
 {
   .contact .contact-info-item{
-    flex: 0 0 100%;  
-    max-width: 100%;  
+    flex: 0 0 50%;  
+    max-width: 50%; 
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: 1px solid var(--bg-black-50);
+    border-top: 1px solid var(--bg-black-50); 
   }
   .contact .contact-form .col-6
   {
@@ -1024,10 +1028,12 @@ portfolio .container
     margin-bottom: 15px;
   }
   .contact .contact-info-item {
-    flex: 0 0 100%;  
-    max-width: 100%;
-    margin-bottom: 6px;
-    
+    flex: 0 0 50%;  
+    max-width: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-bottom: 1px solid var(--bg-black-50);
+    border-top: 1px solid var(--bg-black-50);
   }
   .contact .contact-form .col-6
   {
@@ -1059,10 +1065,6 @@ portfolio .container
 .section-title h2
 {
   font-size: 22px;
-}
-.contact .contact-info-item 
-{
-  border-bottom: 1px solid var(--bg-black-50);
 }
 .contact .contact-form .row
 {
