@@ -391,6 +391,11 @@ h3.my-profession
 }
 /* media query for the personal info start*/
 @media (max-width: 768px) {
+  .row
+  {
+    margin-left: -15px;   
+    margin-right: -15px;
+  }
   .about .about-content .personal-info
   {
     flex: 0 0 100%;
@@ -568,6 +573,11 @@ h3.my-profession
   .service .service-item {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .service .service-item-inner
+  {
+    margin-left: -15px;   
+    margin-right: -15px;
   }
 }
 /* make personal-info and skills responsive: stack on smaller screens */
