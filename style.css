@@ -1058,6 +1058,10 @@ portfolio .container
 {
   font-size: 22px;
 }
+.contact .contact-info-item 
+{
+  border-bottom: 1px solid var(--bg-black-50);
+}
 .contact .contact-form .row
 {
   margin-left: -15px;   
