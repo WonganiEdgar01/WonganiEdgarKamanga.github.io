@@ -867,10 +867,11 @@ portfolio .container
 @media (max-width: 576px){
 .portfolio .portfolio-heading h2 
 {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--skin-color);
   font-weight: 700;
   margin-bottom: 5px;
+  text-align: center;
 }
 .portfolio .portfolio-info h4 {
   font-size: 16px;
