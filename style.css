@@ -853,7 +853,6 @@ portfolio .container
 .contact .contact-info-item .icon .fa
 {
   font-size: 20px;
-  line-height: 40px;
   color: var(--skin-color);
 }
 .contact .contact-info-item h4
@@ -945,14 +944,28 @@ portfolio .container
   }
   .contact .contact-form .form-item
 {
-  margin-bottom: 10px;
+  /* width: 100%; */
+  margin-bottom: 8px;
 }
 }
 @media (max-width: 576px) 
 {
+  .contact .contact-title
+  {
+    font-size: 16px;
+    margin-bottom: 14px;
+    margin-top: 20px;
+  }
+  .contact .contact-sub-title
+  {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
   .contact .contact-info-item {
     flex: 0 0 100%;  
     max-width: 100%;
+    margin-bottom: 6px;
+    
   }
   .contact .contact-form .col-6
   {
@@ -960,8 +973,4 @@ portfolio .container
     max-width: 100%;
     padding: 0 15px;
   }
-  .contact .contact-form .form-item
-{
-  margin-bottom: 10px;
-}
 }
