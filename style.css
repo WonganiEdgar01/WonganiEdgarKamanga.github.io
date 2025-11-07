@@ -61,7 +61,7 @@ ul
 }
 .container
 {
-  max-width: 1100px;
+  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
@@ -74,11 +74,11 @@ ul
 {
   flex: 0 0 100%;
   max-width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .section-title h2
 {
-  font-size: 40px;
+  font-size: 36px;
   color: var(--text-black-900);
   font-weight: 700;
   position: relative;
@@ -670,8 +670,8 @@ h3.my-profession
 
   /* remove left padding so main content uses full width */
   .main-content {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   /* stack home columns */
@@ -722,6 +722,11 @@ h3.my-profession
     padding: 10px 18px; 
     font-size: 14px; 
   }
+  .main-content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
 }
 
 /* Small screens (phones and below) */
@@ -769,7 +774,7 @@ portfolio .container
 {
   font-size: 24px;
   color: var(--skin-color);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Grid layout */
@@ -883,6 +888,7 @@ portfolio .container
   color: var(--skin-color);
   text-align: center;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 .contact-sub-title
 {
@@ -975,6 +981,10 @@ portfolio .container
 }
 @media (max-width: 992px) 
 {
+  .contact .section .row
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .contact .contact-info-item{
     flex: 0 0 100%;  
     max-width: 100%;  
