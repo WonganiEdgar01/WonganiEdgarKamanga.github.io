@@ -840,12 +840,29 @@ portfolio .container
   }
 }
 
+@media (max-width: 786px) {
+  .portfolio .row {
+    grid-template-columns: 1fr;
+    transition: all 0.3s ease;
+  }
+}
+
+
 @media (max-width: 576px){
 .portfolio .portfolio-heading h2 
 {
   font-size: 20px;
   color: var(--skin-color);
-  font-weight: 500;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.portfolio .portfolio-info h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.portfolio .portfolio-info p {
+  font-size: 14px;
 }
 }
 
